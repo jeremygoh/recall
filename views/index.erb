@@ -1,0 +1,11 @@
+<table>
+<th>ID</th>
+<th>Content</th>
+<th>Completed</th>
+  <% @notes.each do |note| %>
+  <tr><%= note.id %></tr>
+  <tr><%= note.content %></tr>
+  <tr><%= note.complete %></tr>
+  <% end %>
+
+</table>
